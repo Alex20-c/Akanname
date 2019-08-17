@@ -52,7 +52,10 @@ h1{
 .genders{
   margin-left: 30px;
   font-size: 60px;
-  font-display: space;
+}
+.radio-button{
+  font-size: 25px;
+
 }
 .btn{
   margin-left: 50px;
