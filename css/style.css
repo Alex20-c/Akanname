@@ -49,3 +49,15 @@ h1{
   font-size: 25px;
   font-family: 'Khula', sans-serif;
 }
+.genders{
+  margin-left: 30px;
+  font-size: 60px;
+  font-display: space;
+}
+.btn{
+  margin-left: 50px;
+  margin-top: 20px;
+  height: 45px;
+  width: 200px;
+  border-radius: 20px;
+}
