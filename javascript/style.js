@@ -16,6 +16,14 @@ function getinput(){
     alert("input the correct month");
     return false;
   }else if(dayOfMonth ==""){
-    alert
+    alert("input the correct date");
+    return false;
   }
+}
+//calculate func
+function calculateDay(){
+  getinput();
+  dayOfWeek = ((((century/4)-2*century-1)+((5*year/4) )+((26*(month+1)/10))+dayOfMonth) %7)-1;
+  console.log(dayOfWeek);//Test the calculateDay function
+  return(Math.floor(dayOfWeek));
 }
