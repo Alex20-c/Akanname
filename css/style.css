@@ -67,3 +67,11 @@ h1{
   font-weight: bold;
   margin: 80px 20px 20px 10px;
 }
+#result{
+  margin-top: 30px;
+  color: #000000;
+  font-size: 28px;
+}
+.rounded-circle{
+  margin-left: 30%;
+}
