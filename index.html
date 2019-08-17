@@ -1,59 +1,58 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Akan</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="jumbotron parent">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="jumbotron p-0 left">
-                <div class="overlay">
-                  <h1 class="text-center akan">The Akan Names</h1>
-                  <hr class="my-4">
-                  <img src="///home/alex/Desktop/week2/images/wata.jpg" alt="picture" class="bold-circle" height="120">
-                  <p class="p-text">In Ghana they name their children after the day of the week that
-                    they were born.</p>
-                    <p class="p-text">The "Day Name" have different meanings concerning the soul and character of the person born.</p>
-                    <p class="q-text text-center">What's your Akan name?</p>
+    <link rel="stylesheet" href="css/style.css" text="text/css">
+    <title>Akon Names</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="jumbotron parent">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="jumbotron p-0 left">
+            <div class="overlay">
+              <h1 class="text-center akan">Akan Names</h1>
+              <hr class="my-4">
+              <img src="images/nature.jpg" alt="picture" class="rounded-circle" height="120">
+              <p class="p-text">In the culture of the Akan people of Ghana,
+                they name their children after the day of the week in regardness of the soul and character of that particular person who is born.</p>
+              <p class="q-text text-center">What is your Akan name?</p>
+              </div>
+            </div>
+              <div class="col-md-6 right">
+                <div class="panel col-sm-6 offset-sm-3">
+                <div class="form-group top-form">
+                  <label for="century" class="labels">Century:</label>
+                  <input type="number" class="form-control" placeholder="Enter the century" id="century" required min="0" max="40">
                 </div>
+                <div class ="form-group">
+                  <label for="year" class="labels">Year:</label>
+                  <input type="number" placeholder="Enter te year" class="form-control" id="year" required min="0" max="100">
+                  </div>
+                  <div class="form-group">
+                    <label for="month" class="labels">Month:</label>
+                    <input type="number" class="form-control" placeholder="Enter the month" id="monthday" required min="0 max="12">
+                  </div>
+                  <form class="radio-button">
+                    <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
+                    <input type="radio" class="gender labels" value="female" id="rad1" name="rads" required>Female
+                  </form>
+                  <br>
+                  <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="cheDayOfWeek();">Show Result</button></a>
+                  <h1 id="result"></h1>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-md-6 right">
-            <div class="panel col-sm-6 offset-sm-3">
-                    <div class="form-group top-form">
-                      <label for="century" class="labels">Century</label><br><br>
-                      <input type="number" class="form-control" placeholder="Enter the century" id="century" required  min="0" max="30">
-                    </div>
-                    <div class="form-group">
-                      <label for="year" class="labels">Year</label><br><br>
-                      <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="0" max="100">
-                    </div>
-                    <div class="form-group">
-                      <label for="month" class="labels">Month</label><br><br>
-                      <input type="number" class="form-control" placeholder="Enter the month of the year" id="month" required min="0" max="12">
-                    </div>
-                    <div class="form-group">
-                      <label for="monthDay" class="labels">Day of month</label><br><br>
-                      <input type="number" placeholder="Enter the day of the month" class="form-control" id="monthday" required min="0" max="12">
-                    </div>
-                    <form class="radio-button">
-                      <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male<br><br>
-                      <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female<br><br>
-                    </form>
-                    <br>
-                    <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDayOfWeek();">Result</button></a>
-                    <h1 id="result"></h1>
-            </div>
-          </div>
-        </div>
-      </div>
 
-  </div>
-  <script src="js/style.js"></script>
-  </body>
-</html>
+        </div>
+        <script src="js/script.js"></script>
+      </body>
+      </html>
+
+
+
+
+
