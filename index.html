@@ -15,7 +15,7 @@
             <div class="overlay">
               <h1 class="text-center akan">Akan Names</h1>
               <hr class="my-4">
-              <img src="images/nature.jpg" alt="picture" class="rounded-circle" height="120">
+              <img src="images/nature.jpg" alt="picture" class="rounded-circle" height="170px" width="170px">
               <p class="p-text">In the culture of the Akan people of Ghana,
                 they name their children after the day of the week in regardness of the soul and character of that
                 particular person who is born.</p>
@@ -25,41 +25,37 @@
         </div>
           <div class="col-md-6 right">
             <div class="panel col-sm-6 offset-sm-3">
-              <div class="form-group top-form">
-                <label for="century"  class="labels">Century:</label>
-                <input type="number" class="form-control" placeholder="Enter the century" id="century" required min="0"
-                  max="40">
-              </div>
+              
               <div class="form-group">
                 <label for="day" class="labels">Day:</label>
-                <input type="number" placeholder="Enter the Day" class="form-control" id="day" required min="0"
+                <input type="number" placeholder="Enter the Day" class="form-control" id="d" required min="0"
                   max="100">
               </div>
               <div class="form-group">
                 <label for="year" class="labels">Year:</label>
-                <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="0"
-                  max="100">
+                <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="1900"
+                  max="2019">
               </div>
               <div class="form-group">
                 <label for="month" class="labels">Month:</label>
-                <input type="number" class="form-control" placeholder="Enter the month" id="monthday" required min="0"
+                <input type="number" class="form-control" placeholder="Enter the month" id="month" required min="0"
                   max="12">
               </div>
               <form class="radio-button">
-                <input type="radio" class="genders labels" value="female" id="rad1" name="rads" 
+                <input type="radio" class="genders labels" value="female" id="rad1" name="gd" 
                 required>Female
-                <input type="radio" class="gender labels" value="male" id="rad1" name="rads" 
+                <input type="radio" class="gender labels" value="male" id="rad1" name="gd" 
                 required>Male
               </form>
               <br>
               <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2"
-                  onclick="cheDayOfWeek();">Show Result</button></a>
+                  onclick= " myFunction()">Show Result</button></a>
               <h1 id="result"></h1>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <script src="js/style.js"></script>
+    <script src="javascript/style.js"></script>
   </body>
   </html>
